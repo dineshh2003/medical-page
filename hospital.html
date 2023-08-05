@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>Register Hospital</title>
+<link rel="stylesheet" href="hospital.css">
+</head>
+
+<body>
+    <div class="details">
+    <p>
+        <button type="submit" class="hidden" style='margin-right:16px'><a href="doctor.html">Doctor
+                Registration</a></button>
+       <button type="submit" class="hidden" style='margin-right:16px'> <a href="patient.html">Patient
+                Registration</a></button>
+        <button type="submit" class="hidden" style='margin-right:16px'><a href="patient_details.html">View Patient
+                Details</a></button>
+        <button type="submit" class="hidden" style='margin-right:16px'><a href="record.html">View Medical
+                Record</a></button>
+        <button type="submit" class="hidden" style='margin-right:16px'><a href="examine-detail.html">View Patient
+                Examine details</a></button>
+    </p>
+</div>
+    <h1>Hospital Registration </h1>
+    <div id="content">
+    <h2>Register Hospital</h2>
+    <form>
+        <table style="width:25%">
+            <tr>
+                <td>Enter Hospital Id:</td>
+                <td><input type="text" id="id1" name="id1"></td>
+            </tr>
+            <tr>
+                <td> Hospital Name:</td>
+                <td><input type="text" id="name1" name="name1"></td>
+            </tr>
+            <tr>
+                <td>Hospital Address:</td>
+                <td><input type="text" id="addr" name="addr"></td>
+            </tr>
+            <tr>
+                <td>Hospital Specification:</td>
+                <td><input type="text" id="spec" name="spec"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="add_details()" value="Register"></td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+    <h3>To get details of a hospital <a href="hospital_details.html">Click Here</a></h3>
+</body>
+
+</html>
